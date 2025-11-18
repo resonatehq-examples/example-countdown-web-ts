@@ -1,0 +1,21 @@
+{
+  "name": "example-countdown-web-ts",
+  "version": "1.0.0",
+  "description": "Browser-based countdown example with Resonate",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@resonatehq/sdk": "^0.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^6.0.0"
+  }
+}
