@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resonate</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .float {
+      animation: float 3s ease-in-out infinite;
+    }
+    .fade-in-up {
+      animation: fadeInUp 1s ease-out forwards;
+    }
+    .delay-1 {
+      animation-delay: 0.2s;
+      opacity: 0;
+    }
+    .delay-2 {
+      animation-delay: 0.4s;
+      opacity: 0;
+    }
+    .resonate-primary {
+      color: #353F58;
+    }
+  </style>
+</head>
+<body class="bg-white min-h-screen flex items-center justify-center">
+  <!-- Main content -->
+  <div class="text-center px-4">
+    <!-- Echo logo -->
+    <div class="flex justify-center mb-12 fade-in-up">
+      <div class="float">
+        <img src="/echo.svg" alt="Echo" class="w-32 h-32 md:w-40 md:h-40 drop-shadow-xl">
+      </div>
+    </div>
+
+    <!-- Resonate text -->
+    <h1 class="text-7xl md:text-8xl lg:text-9xl font-bold resonate-primary mb-6 fade-in-up delay-1">
+      Resonate
+    </h1>
+
+    <!-- Tagline -->
+    <p class="text-3xl md:text-4xl lg:text-5xl font-light tracking-wide fade-in-up delay-2" style="color: #353F58; opacity: 0.7;">
+      Simplicity is the new stack
+    </p>
+
+    <!-- Subtle decoration line -->
+    <div class="mt-12 flex justify-center fade-in-up delay-2">
+      <div class="w-32 h-1 rounded-full" style="background: linear-gradient(to right, transparent, #353F58, transparent);"></div>
+    </div>
+  </div>
+</body>
+</html>
