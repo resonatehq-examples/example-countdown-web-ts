@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.png" alt="Countdown on the Web — Resonate example" />
+</p>
+
 # Resonate Countdown in the Browser
 
 A *Countdown* powered by the Resonate Typescript SDK and running in the browser. The countdown sends periodic browser notifications at configurable intervals.
