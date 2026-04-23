@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.png">
+    <img alt="Countdown on the Web — Resonate example" src="./assets/banner-dark.png">
+  </picture>
+</p>
+
 # Resonate Countdown in the Browser
 
 A *Countdown* powered by the Resonate Typescript SDK and running in the browser. The countdown sends periodic browser notifications at configurable intervals.
